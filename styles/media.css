@@ -1,0 +1,8 @@
+@media screen and (max-width: 980px) {
+  .page .top-banner-bg .top-banner .logo {
+    max-width: rem(60);
+  }
+  .page .top-banner-bg .top-banner .banner-container {
+    margin: 0;
+  }
+}

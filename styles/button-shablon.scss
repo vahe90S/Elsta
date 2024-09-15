@@ -1,0 +1,14 @@
+@function rem($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}
+%button {
+  display: inline-flex;
+  font: rem(18)/rem(28) OpenSanslight;
+  padding: rem(6) rem(20);
+  background: var(--ButtonLight);
+  color: var(--white);
+  border-radius: rem(5);
+  box-shadow: 0 2px 0 #3C9066;
+  text-transform: uppercase;
+}

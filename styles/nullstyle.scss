@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: roboto;
+    line-height: 1;
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-track {
+        background: #F0F2F3;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #425A5A;
+        border-radius: 20px;
+        border: 1px solid var(--primarycolor);
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
